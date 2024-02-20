@@ -1,0 +1,179 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+progress{
+    width: 97%;
+}
+#second pre{
+    font-size: smaller;
+}
+
+body, html {
+
+    height: 100%;
+}
+
+.child{
+    height:175px;
+    width:800px;
+    /*display:flex;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    
+}
+#first{
+    height:100%;
+    width:47%;
+    background-color: white;
+    float:left;
+    margin:10px;
+    padding:25px;
+}
+
+#second{
+    height:100%;
+    width:47%;
+    background-color:rgb(214, 58, 58);
+    float:right;
+    margin:10px;
+    padding:25px;
+}
+div > img{
+    height: 100%;
+     width:100%;
+    object-fit: cover;
+}
+
+
+#first2{
+    height:100%;
+    width:59%;
+    background-color:rgb(214, 58, 58);
+    float:left;
+    margin:10px;
+    padding:25px;
+}
+
+#second2{
+    height:100%;
+    width:35%;
+    background-color:white;
+    float:right;
+    margin:10px;
+    padding:25px;
+}
+
+#first3{
+    height:100%;
+    width:35%;
+    background-color:white;
+    float:left;
+    margin:10px;
+    padding:25px;
+}
+#second3{
+    height:100%;
+    width:59%;
+    background-color:rgb(214, 58, 58);
+    float:right;
+    margin:10px;
+    padding:25px;
+}
+
+.foot{
+    text-align: center;
+    margin: 20px;
+}
+
+.foot i{
+
+    border-radius: 50%;
+    background-color: white;
+    height: 15px;
+    width:15px;
+    color: rgb(221, 9, 9);
+    /* padding: 4px; */
+}
+
+
+
+.round {
+    /* display:block; */
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow:hidden;
+    border: 5px solid #ddd;
+    /* margin-top: 20%; */
+}
+
+#text1{
+    /* margin: 40px; */
+    text-align: center;
+    
+
+}
+.container{
+    background-image: url("/images/mountain.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:center;
+    align-items: center;
+    background-attachment: scroll;
+    height: 1200px;
+}
+#first h4{
+margin-bottom: 10px;
+}
+
+.inner{
+    margin: 30px;
+}
+footer>p{
+    text-align: center;
+    margin-top: 45px;
+    
+}
+.inner{
+    margin-top: 60px;
+}
+div pre{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#first2 h3{
+    margin-bottom: 13px;
+}
+div >ul{
+   margin-left:21px;
+   font-size: small;
+}
+#first3 >ul{
+    list-style-type: none;
+}
+#first3 >ul>li{
+    margin-bottom: 10px;
+    font-size: small;
+}
+#second3>h3{
+    margin-bottom: 13px;
+}
+/* 
+body{
+    /* background-image: url("/images/mountain.avif"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* justify-content:center;
+    align-items: center;
+    background-attachment: scroll;
+    height: 1200px; */
+ 
